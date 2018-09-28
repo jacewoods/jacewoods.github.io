@@ -1,7 +1,7 @@
 # Homework 1
-*[Assignment Page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW1.html)
-*[Demo](https://jacewoods.github.io/CS460/Homework1/demo/index.html)
-*[Repository](https://github.com/jacewoods/CS460/tree/master/homework1)
+* [Assignment Page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW1.html)
+* [Demo](https://jacewoods.github.io/CS460/Homework1/demo/index.html)
+* [Repository](https://github.com/jacewoods/CS460/tree/master/homework1)
 
 The first homework assignment of CS460 was based on getting acquainted with a few things:
 1. Git
