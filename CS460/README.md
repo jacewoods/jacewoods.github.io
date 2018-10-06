@@ -8,3 +8,6 @@ CS460 is the first segment of a year long set of classes taken by Computer Scien
 Homework 1: HTML, CSS, Bootstrap
 * [Blog](https://jacewoods.github.io/CS460/Homework1)
 * [Demo](https://jacewoods.github.io/CS460/Homework1/demo/index.html)
+
+Homework 2: Javascript, jQuery
+* [Blog](https://jacewoods.github.io/CS460/Homework2)
