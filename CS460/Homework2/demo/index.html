@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Burger Connoisseur</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootstrap CSS and jQuery CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!--My Style Sheet-->
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div id="centeredTitles">
+        <h1 id="burgerBar">THE BURGER BAR</h1>
+        <h4 id="burgerBar2">Build the Perfect Burger!</h4>
+    </div>
+
+
+
+
+
+    <form id="burgerForm" method="post">
+        <!--Row of Bun/Patty/Cheese Selection-->
+        <div class="row">
+            <div class="col-sm-4" id="thebun">
+                <!--Select Type of Bun-->
+                <h4>The Bun</h4>
+                <ul>
+                    <li>
+                        <input type="radio" name="chooseBun" checked="checked" id="wheat" value="Wheat Bun">
+                        <label for="wheat">Wheat</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="chooseBun" id="pretzel" value="Pretzel Bun">
+                        <label for="pretzel">Pretzel</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="chooseBun" id="glutenfree" value="Gluten Free Bun">
+                        <label for="glutenfree">Gluten Free</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="chooseBun" id="lettuce" value="Lettuce Wrap">
+                        <label for="lettuce">Lettuce</label>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Select Type of Patty-->
+            <div class="col-sm-4" id="thepatty">
+                <h4>The Patty</h4>
+                <ul>
+                    <li>
+                        <input type="radio" name="choosePatty" checked="checked" id="beef" value="Beef Patty">
+                        <label for="beef">Beef</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="choosePatty" id="veggie" value="Veggie Patty">
+                        <label for="veggie">Veggie</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="choosePatty" id="vegan" value="Vegan Patty">
+                        <label for="vegan">Vegan</label>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Select Type of Cheese-->
+            <div class="col-sm-4" id="thecheese">
+                <h4>The Cheese</h4>
+                <ul>
+                    <li>
+                        <input type="radio" name="chooseCheese" id="noCheese" value="No Cheese">
+                        <label for="noCheese">None</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="chooseCheese" checked="checked" id="cheddar" value="Cheddar Cheese">
+                        <label for="cheddar">Cheddar</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="chooseCheese" id="provolone" value="Provolone Cheese">
+                        <label for="provolone">Provolone</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="chooseCheese" id="swiss" value="Swiss Cheese">
+                        <label for="swiss">Swiss</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Row of Topping Selection-->
+        <div class="row">
+            <!--Select Basic Toppings-->
+            <div class="col-sm-6" id="thetoppings">
+                <h4>The Toppings</h4>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="lettuce" checked="checked" value="Lettuce" />
+                        <label for="lettuce">Lettuce</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="onion" checked="checked" value="Onion" />
+                        <label for="onion">Onion</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="pickle" checked="checked" value="Pickle" />
+                        <label for="pickle">Pickle</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="tomato" checked="checked" value="Tomato" />
+                        <label for="tomato">Tomato</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ketchup" value="Ketchup" />
+                        <label for="ketchup">Ketchup</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="mustard" value="Mustard" />
+                        <label for="mustard">Mustard</label>
+                    </li>
+                    <li>
+                </ul>
+            </div>
+            <!--Select Premium Toppings-->
+            <div class='col-sm-6' id="premiumtoppings">
+                <h4>Premium Toppings</h4>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="jalapenos" value="Jalapenos" />
+                        <label for="jalapenos">Jalapenos</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="bacon" value="Bacon" />
+                        <label for="bacon">Bacon</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="avocado" value="Avocado" />
+                        <label for="avocado">Avocado</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="pineapple" value="Pineapple" />
+                        <label for="pineapple">Pineapple</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="egg" value="Egg" />
+                        <label for="egg">Egg</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--The Burger Button-->
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <input type="submit" class="burgerBuilder" value="Build the Burger!" onclick="return burgerList()">
+            </div>
+        </div>
+
+
+
+        <!--List of selected elements-->
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="listBuilder"></div>
+            </div>
+            <!--List of notes based on selected elements-->
+            <div class="col-sm-6">
+                <div class="fromKitchen"></div>
+            </div>
+        </div>
+
+    </form>
+
+    <!--jQuery-->
+    <script>
+        // Page startup function to display input boxes
+        $(function () {
+            $('#burgerBar').hide().fadeIn(300);
+            $('#burgerBar2').hide().delay(300).fadeIn(300);
+            $('#thebun').hide().delay(600).fadeIn(300);
+            $('#thepatty').hide().delay(900).fadeIn(300);
+            $('#thecheese').hide().delay(1200).fadeIn(300);
+            $('#thetoppings').hide().delay(1500).fadeIn(300);
+            $('#premiumtoppings').hide().delay(1800).fadeIn(300);
+            $('.burgerBuilder').hide().delay(2100).fadeIn(300);
+        });
+
+        function notesFromKitchen() {
+            //Creates header and start of second list
+            $(".fromKitchen").empty().append("<h4>Notes from the Kitchen:</h4><ul>").css("padding-bottom", "10px");
+
+
+            $('div input[type=radio').each(function () {
+                //Prints if either gluten free bun or lettuce wrap were selected
+                if ($(this).is(":checked") && (($(this).attr('value') == "Gluten Free Bun") || $(this).attr('value') == "Lettuce Wrap")) {
+                    $(".fromKitchen").append("<li>" + "Nice plan on the bun, cutting back on carbs is always a good option!" + "</li>");
+                }
+                //Prints if either veggie or vegan patty were selected
+                if ($(this).is(":checked") && (($(this).attr('value') == "Veggie Patty") || $(this).attr('value') == "Vegan Patty")) {
+                    $(".fromKitchen").append("<li>" + "Way to think about the cows!" + "</li>");
+                }
+            })
+
+            //Only prints if a cheese was selected
+            $('#thecheese input[type=radio').each(function () {
+                if ($(this).is(":checked") && ($(this).attr('value') != "No Cheese")) {
+                    $(".fromKitchen").append("<li>" + "Did you know? It takes 10 pounds of milk to make just 1 pound of cheese." + "</li>");
+                }
+            })
+            $('div input[type=checkbox').each(function () {
+                //These functions react if pickles, jalapenos or bacon are checked, respectively
+                if ($(this).is(":checked") && ($(this).attr('value') == "Pickle")) {
+                    $(".fromKitchen").append("<li>" + "Who doesn't love pickles?").append("</li>");
+                }
+
+                if ($(this).is(":checked") && ($(this).attr('value') == "Jalapenos")) {
+                    $(".fromKitchen").append("<li>" + "Spicy. I like it!").append("</li>");
+                }
+
+                if ($(this).is(":checked") && ($(this).attr('value') == "Bacon")) {
+                    $(".fromKitchen").append("<li>" + "It wouldn't be a burger without Bacon." + "</li>");
+                }
+
+                //Checks if both pineapple and egg are selected
+                if ($(this).is(":checked") && ($(this).attr('value') == "Pineapple")) {
+
+                    $('#premiumtoppings input[type=checkbox').each(function () {
+
+                        if ($(this).is(":checked") && ($(this).attr('value') == "Egg")) {
+                            $(".fromKitchen").append("<li>" + "Pineapple and egg together? Interesting, but who am I to judge!").append("</li>");
+                        }
+                    })
+                }
+
+            })
+            $(".fromKitchen").append("<li>" + "Thanks for Building! Try a few other selections to find out what we have to say!").append("</li>");
+        };
+
+        //Function to create the list based on ingredient selection
+        function burgerList() {
+            $(".listBuilder").empty().append("<h4>Your Burger Ingredients:</h4><ul>").css("padding-bottom", "10px");
+            $('div input[type=radio').each(function () {
+                //Adds all selected radio elements to the list, will not add cheese to list if "None" is selected in Cheese radio option
+                if ($(this).is(":checked") && $(this).attr('value') != "No Cheese") {
+                    $(".listBuilder").append("<li>" + $(this).attr('value')).append("</li>");
+                }
+            })
+
+            $('div input[type=checkbox]').each(function () {
+                //Adds all selected checkbox elements to the list
+                if ($(this).is(":checked")) {
+                    $(".listBuilder").append("<li>" + $(this).attr('value')).append("</li>");
+                }
+            })
+
+            //Calls the second list to be created
+            notesFromKitchen();
+
+            return false;
+        };
+
+    </script>
+
+</body>
+</html>
