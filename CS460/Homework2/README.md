@@ -2,6 +2,7 @@
 * [Assignment Page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW2.html)
 * [Demo](https://jacewoods.github.io/CS460/Homework2/demo/index.html)
 * [Repository](https://github.com/jacewoods/CS460/tree/master/homework2)
+* [Back to Homepage](https://jacewoods.github.io/)
 
 The second homework assignment for CS460 involved learning the following things:
 1. Javascript
@@ -109,7 +110,7 @@ In the first line of this code I used the append() function to begin building on
 Overall, I felt confident in my understanding of the DOM as I progressed through the assignment.
 
 # Merging branches with Git
-Merging seemed like a daunting and complicated process to grasp, but after this week I became comfortable with merging and realized it is simpler process than I had made it out to be. I was very careful in my steps taken to merge, as not to impact the way the code was pushed out to the repository, here are roughly the steps I took to ensure this procedure was done correctly:
+Merging seemed like a daunting and complicated process to grasp, but after this week I became comfortable with merging and realized it is simpler process than I had made it out to be. I was very careful in my steps taken to merge, as not to impact the way the code was pushed out to the repository. Here are roughly the steps I took to ensure this procedure was done correctly:
 
 1. git branch hw2-main (creates the new branch)
 1. git checkout hw2-main (goes to the new branch)
