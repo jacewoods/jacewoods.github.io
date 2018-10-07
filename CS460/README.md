@@ -11,3 +11,4 @@ Homework 1: HTML, CSS, Bootstrap
 
 Homework 2: Javascript, jQuery
 * [Blog](https://jacewoods.github.io/CS460/Homework2)
+* [Demo](https://jacewoods.github.io/CS460/Homework2/demo/index.html)
