@@ -11,8 +11,8 @@ The second homework assignment for CS460 involved learning the following things:
 
 First off, I drew a sketch to try and visualize what I was looking for in my website design.
 
-![image text](https://github.com/jacewoods/jacewoods.github.io/blob/master/CS460/Homework2/hw2image1.jpg "Page 1 of Sketch")
-![image text](https://github.com/jacewoods/jacewoods.github.io/blob/master/CS460/Homework2/hw2image2.jpg "Page 2 of Sketch")
+![image text](/CS460/Homework2/hw2image1.jpg "Page 1 of Sketch")
+![image text](/CS460/Homework2/hw2image2.jpg "Page 2 of Sketch")
 
 My goal initially was to grab multiple inputs in a "Burger Bar" and create a detailed table based on those inputs. One thing you'll notice is that I had a very barren table result in my initial sketch. I had a tough time brainstorming ideas to add information aside from the ingredients into the table simply because there isn't a whole lot you can add to a table with just the inputs I sketched, and adding anything unique aside from ingredients would defeat the purpose of a "Burger Bar". I decided to go for a list approach, as you'll see in the demo, and actually created two seperate lists; one for the ingredients, and one that creates messages based on unique input combinations. More on that below.
 
@@ -129,4 +129,4 @@ Merging seemed like a daunting and complicated process to grasp, but after this 
 # The Final Product
 In the end, I altered the input displays slightly from my initial sketch to a more clean and concise look, and I found it to be more fun to take an approach of first generating a generic list that displays all of the options you selected, as well as a second (and more interactive) list that sends you notes based on what you selected. For instance, if you select "Bacon", it will essentially tell you in a personalized note that bacon was a good idea, or if you select both "pineapple" and "egg", it will question the combination. This is a way to play with the inputs in order to see what kind of messages the Kitchen will deliver! Below is a screenshot of one combination of inputs.
 
-![image text](https://github.com/jacewoods/jacewoods.github.io/blob/master/CS460/Homework2/hw2pagedemo.PNG "Screenshot of my webpage")
+![image text](/CS460/Homework2/hw2pagedemo.PNG "Screenshot of my webpage")
