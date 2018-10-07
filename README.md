@@ -3,7 +3,7 @@ Hello, my name is Jace Woods! I am a Computer Science student at Western Oregon 
 
 ## Contact Me
 * [LinkedIn](https://www.linkedin.com/in/jacewoods)
-* [Facebook](https://www.facebook.com/JaceWoods)
+* Email: woodsjace@yahoo.com
 
 
 ## Software Engineering Sequence Portfolio
