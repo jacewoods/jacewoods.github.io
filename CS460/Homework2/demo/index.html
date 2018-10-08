@@ -250,9 +250,10 @@
           
             $('div input[type=radio').each(function () {
                 //Adds all selected radio elements to the list, will not add cheese to list if "None" is selected in Cheese radio option
-                if ($(this).is(":checked") && $(this).attr('value') != "No Cheese") {
-                    $(".listBuilder").append("<li>" + $(this).attr('value')).append("</li>");
-                }
+//                if ($(this).is(":checked") && $(this).attr('value') != "No Cheese") {
+//                    $(".listBuilder").append("<li>" + $(this).attr('value')).append("</li>");
+                $(".listBuilder").append("hi").append("</li>");
+//                }
             })
 /*  
             $('div input[type=checkbox]').each(function () {
