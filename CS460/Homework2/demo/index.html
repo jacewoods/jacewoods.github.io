@@ -176,7 +176,7 @@
             </div>
         </div>
 
-
+    </form>
 
     <!--jQuery-->
     <script>
@@ -195,7 +195,7 @@
         function notesFromKitchen() {
             //Creates header and start of second list
             $(".fromKitchen").empty().append("<h4>Notes from the Kitchen:</h4><ul>").css("padding-bottom", "10px");
-
+/*
 
             $('div input[type=radio').each(function () {
                 //Prints if either gluten free bun or lettuce wrap were selected
@@ -238,14 +238,16 @@
                         }
                     })
                 }
-
+                
             })
+            */
             $(".fromKitchen").append("<li>" + "Thanks for Building! Try a few other selections to find out what we have to say!").append("</li>");
         };
 
         //Function to create the list based on ingredient selection
         function burgerList() {
             $(".listBuilder").empty().append("<h4>Your Burger Ingredients:</h4><ul>").css("padding-bottom", "10px");
+/*            
             $('div input[type=radio').each(function () {
                 //Adds all selected radio elements to the list, will not add cheese to list if "None" is selected in Cheese radio option
                 if ($(this).is(":checked") && $(this).attr('value') != "No Cheese") {
@@ -259,9 +261,9 @@
                     $(".listBuilder").append("<li>" + $(this).attr('value')).append("</li>");
                 }
             })
-
+*/
             //Calls the second list to be created
-            //notesFromKitchen();
+            notesFromKitchen();
 
             return false;
         };
