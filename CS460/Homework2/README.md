@@ -20,7 +20,7 @@ My goal initially was to grab multiple inputs in a "Burger Bar" and create a det
 # (More) HTML and CSS
 I was much more comfortable writing HTML and CSS code this week than the previous, having some experience under my belt. The challenges were mostly in adding inputs like radios and checkboxes, which I did like this:
 
-```
+```html
 <!--Select Type of Patty-->
   <div class="col-sm-4" id="thepatty">
     <h4>The Patty</h4>
@@ -43,7 +43,7 @@ I was much more comfortable writing HTML and CSS code this week than the previou
 
 The other thing that took some time, but was enjoyable, was making a fun button to click on when all of the inputs are complete, and I made a lot of edits to the CSS of the button to shape it up the way I wanted it to appear on the screen, such as changing the outline of the box, the color to appear like a textbox version of a burger, and adding hover and clicking functionality. Below is the final product behind the process I took:
 
-```
+```css
 .burgerBuilder {
     font-size: 20pt;
     font: bold;
@@ -74,7 +74,7 @@ The main lesson of this assignment for me was getting acquainted with jQuery. I 
 
 I started out just having some fun with jQuery commands. I wanted the page to pop out to the viewer in a way, which is why I added the following code to start off the launch of the page:
 
-```
+```jquery
 $(function () {
   $('#burgerBar').hide().fadeIn(300);
   $('#burgerBar2').hide().delay(300).fadeIn(300);
@@ -88,14 +88,14 @@ $(function () {
 ```
 
 This code utilizes hiding my columns and button, and displaying them in a quick manner (every .3 seconds) until the full page has loaded. I spent a lot of time working with different jQuery commands as well, such as .empty() to ensure my page doesn't get overpopulated with each button press, .each() to traverse all elements from my inputs, and .css() to change the elements in a table from within the jQuery command. Below is an example of the usage of the .each() command to look at all inputs that used a checkbox.
-```
+```jquery
 $('div input[type=checkbox').each(function () {stuff})
 ```
 
 # The DOM
 The DOM, or Document Object Model, was a pretty simple concept to understand, or at least its basic principle was. I ended up using the DOM for much of my jQuery script, primarily append(), and had it interact with my inputs in order to push out information for my lists. Below is an excerpt of my code with the append() and empty() functions utilized.
 
-```
+```jquery
 function burgerList() {
   $(".listBuilder").empty().append("<h4>Your Burger Ingredients:</h4><ul>").css("padding-bottom", "10px");
   $('div input[type=radio').each(function () {
