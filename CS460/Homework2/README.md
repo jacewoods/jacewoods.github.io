@@ -74,7 +74,7 @@ The main lesson of this assignment for me was getting acquainted with jQuery. I 
 
 I started out just having some fun with jQuery commands. I wanted the page to pop out to the viewer in a way, which is why I added the following code to start off the launch of the page:
 
-```jquery
+```javascript
 $(function () {
   $('#burgerBar').hide().fadeIn(300);
   $('#burgerBar2').hide().delay(300).fadeIn(300);
@@ -88,14 +88,14 @@ $(function () {
 ```
 
 This code utilizes hiding my columns and button, and displaying them in a quick manner (every .3 seconds) until the full page has loaded. I spent a lot of time working with different jQuery commands as well, such as .empty() to ensure my page doesn't get overpopulated with each button press, .each() to traverse all elements from my inputs, and .css() to change the elements in a table from within the jQuery command. Below is an example of the usage of the .each() command to look at all inputs that used a checkbox.
-```jquery
+```javascript
 $('div input[type=checkbox').each(function () {stuff})
 ```
 
 # The DOM
 The DOM, or Document Object Model, was a pretty simple concept to understand, or at least its basic principle was. I ended up using the DOM for much of my jQuery script, primarily append(), and had it interact with my inputs in order to push out information for my lists. Below is an excerpt of my code with the append() and empty() functions utilized.
 
-```jquery
+```javascript
 function burgerList() {
   $(".listBuilder").empty().append("<h4>Your Burger Ingredients:</h4><ul>").css("padding-bottom", "10px");
   $('div input[type=radio').each(function () {
