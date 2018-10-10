@@ -34,7 +34,7 @@ My HTML experience goes way back to when I was about 11 years old! I didn't real
 
 Below are coding snippets where I tried to get my top navbar links to appear as white, but this refused to work until I added an "!important" tag following the "white" label.
 
-```
+```html
 <div class="navbar-nav ml-auto">
   <a class="nav-item nav-link active" href="index.html">Home</a>
   <a class="nav-item nav-link" href="bonvine.html">Bo & Vine</a>
@@ -43,7 +43,7 @@ Below are coding snippets where I tried to get my top navbar links to appear as 
 </div>
  ```
  
- ```
+ ```css
  a {
     color: white !important;
     text-decoration: underline;
@@ -62,7 +62,7 @@ Bootstrap was the most difficult process to navigate for this assignment. I had 
 
 When playing with the functionality of bootstrap, I did find it bewildering that if I used Bootstrap 4, it actually broke my initial code, whereas Bootstrap 3 did not. I had to build some workarounds to fix this issue (as mentioned above using "!important" to make my link text white), but eventually I became accustomed to bootstrap and its functionality enough to where I was able to complete a website I was happy with! I also took advantage of a few of the bootstrap components, such as [Navbar](https://getbootstrap.com/docs/4.0/components/navbar/), [Jumbotron](https://getbootstrap.com/docs/4.0/components/jumbotron/), and [Alerts](https://getbootstrap.com/docs/4.0/components/alerts/), the latter I used to open up my index.html page with a green alert on the top of the screen using the following code:
 
-```
+```html
 <div class="alert alert-success alert-dismissible fade show" role="alert">
     You've found the best burger-related content in the world!
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
