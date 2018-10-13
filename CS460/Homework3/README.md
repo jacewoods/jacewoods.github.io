@@ -1,4 +1,4 @@
-# Homework 2
+# Homework 3
 * [Assignment Page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW3_1819.html)
 * [Repository](https://github.com/jacewoods/CS460/tree/master/homework3)
 * [Back to Homepage](https://jacewoods.github.io/)
