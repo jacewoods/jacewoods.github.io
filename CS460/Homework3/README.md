@@ -33,7 +33,7 @@ I also got tripped up in the output of the code, where instead of
 Console.Write(" ");
 ```
 I wrote
-```C#
+```c#
 Console.WriteLine(" ");
 ```
 This resulted in correct yet wonkily spaced output code that caused me to look at the entirety of my function before discovering the simple mistake I had made. This was more of a learning experience where, in hindsight, I should have understood that my mistake was in the actual output rather than the code that built the binary, and could have saved myself some time if I checked on and identified the difference between 'Write' and 'WriteLine'.
