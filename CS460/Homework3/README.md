@@ -29,7 +29,7 @@ The way I discovered how to fix this error was to do some research online. Event
 
 I also got tripped up in the output of the code, where instead of
 ```C#
-C# Console.Write(" ");
+Console.Write(" ");
 ```
 I wrote
 ```C#
