@@ -42,6 +42,10 @@ Eventually I was able to resolve the small changes necessary to make in order to
 
 ![image text](/CS460/Homework3/hw3output.PNG "Screenshot of my C# output")
 
+Below is another screenshot that details some of my use of XML comments, which aren't personally my favorite style of writing notes for code as it, to me, makes it appear a little too cluttered. My guess in this situation is that, since I have never used XML commenting, it threw me off to not just stick to the general one green line of comments for the code. Regardless, it is probably a more optimal and clean way to write code, at least for classes.
+
+![image text](/CS460/Homework3/hw3xmlnotes.PNG "Screenshot of my C# output")
+
 # Merging branches with Git
 This is more of a reiteration of learning how to branch and merge that was learned in Homework 2, but nonetheless, the steps I had written down and used to replicate the process in homework 3 were very helpful, and therefore I will repost the example step-by-step process that I take to set up a successful merge to master:
 
