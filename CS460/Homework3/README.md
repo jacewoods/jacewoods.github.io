@@ -49,8 +49,8 @@ Below is another screenshot that details some of my use of XML comments, which a
 # Merging branches with Git
 This is more of a reiteration of learning how to branch and merge that was learned in Homework 2, but nonetheless, the steps I had written down and used to replicate the process in homework 3 were very helpful, and therefore I will repost the example step-by-step process that I take to set up a successful merge to master:
 
-1. git branch hw2-main (creates the new branch)
-1. git checkout hw2-main (goes to the new branch)
+1. git branch hw3-main (creates the new branch)
+1. git checkout hw3-main (goes to the new branch)
 1. git branch (verify I am on the new branch)
 1. vi homeworkfiles.html (create a file in new branch)
 1. git add homeworkfiles.html
@@ -59,7 +59,7 @@ This is more of a reiteration of learning how to branch and merge that was learn
 1. vi README.md (add change to make merge visible)
 1. git add README.md
 1. git commit -m "showing commit on master"
-1. git merge hw2-main (merges hw2-main into master branch)
-1. git log --oneline --graph (visual of hw2-main being merged into master branch, and to make sure it worked)
+1. git merge hw3-main (merges hw3-main into master branch)
+1. git log --oneline --graph (visual of hw3-main being merged into master branch, and to make sure it worked)
 1. git push origin master
-1. git push origin hw2-main
+1. git push origin hw3-main
