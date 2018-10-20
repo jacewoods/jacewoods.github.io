@@ -17,14 +17,14 @@ This is an introduction to both the ViewBag element and Razor HTML being invoked
 <li>@Html.ActionLink("Converter", "Converter", "Home")</li>
 <li>@Html.ActionLink("ColorChooser", "Create", "Color")</li>
 ```
-This was initially defaulted to an About and Contact page, but due to the similarities of where the Converter page should take me to, it wasn't difficult to determine what keywords to change. The first element in the ActionLink is simply the text to be displayed on the toolbar, the second is the directory name, and the last is the Controller it is pulling information from. This did take a bit of time to learn when building the second "Color" directory, as it was not to be pulled from the /Home directory. Once I traced the files and where they originated, I was able to eventually discover how to build a link that takes me to the ColorChooser page.
+This was initially defaulted to an About and Contact page, but due to the similarities of where the Converter page should take me to, it wasn't difficult to determine what keywords to change. The first element in the ActionLink is simply the text to be displayed on the toolbar, the second is the directory name, and the last is the Controller it is pulling information from. This did take a bit of time to learn when building the second "Color" directory, as, per the requirements of Homework 4, it was not to be pulled from the /Home directory. Once I traced the files and where they originated, I was able to eventually discover how to build a link that takes me to the ColorChooser page.
 
 The resulting product of the homepage can be seen below:
 
 ![image text](/CS460/Homework4/hw4home.PNG "Screenshot of my C# Homepage")
 
 # Building the Converter page
-Once the homepage is set up, the first task is to build a Converter page that takes a user input for mileage and a selection for what metric unit they wish to convert the mileage to. Ideally, this should look fairly identical to the one seen in the [Homework 4 description](http://www.wou.edu/~morses/classes/cs46x/assignments/images/hw4_mmconverter.png). Starting out, this was fairly smooth sailing. I built a foundational HTML layout for the page that I have gotten some experience with in the first two homework assignments. In fact, [using radio buttons for input](https://jacewoods.github.io/CS460/Homework2/demo/index.html) is something I had done previously, so inserting this was no problem. The piece that did take some time to implement is the section that includes the output after the user adds their mileage input and selected conversion radio. Below is how I wrote this:
+Once the homepage is set up, the first task is to build a Converter page that takes a user input for mileage and a selection for what metric unit they wish to convert the mileage to. Ideally, this should look fairly identical to the one seen in the [Homework 4 description](http://www.wou.edu/~morses/classes/cs46x/assignments/images/hw4_mmconverter.png). Starting out, this was fairly smooth sailing. I built a foundational HTML layout for the page that I have gotten some experience with in the first two homework assignments. In fact, using radio buttons for input is something [I had done previously](https://jacewoods.github.io/CS460/Homework2/demo/index.html), so inserting this was no problem. The piece that did take some time to implement is the section that includes the output after the user adds their mileage input and selected conversion radio. Below is how I wrote this:
 ```html
 <form action="Converter" method="get">
     <div style="padding-bottom:240px;">
@@ -125,6 +125,6 @@ With all pieces of the project complete, it was time to pull it all back togethe
 
 ![image text](/CS460/Homework4/hw4mergeconflict.PNG "Screenshot of my Merge Conflict")
 
-At first I didn't understand what those >>> and === lines really meant, but upon looking closer, I realized all it was doing was pushing the differences in code made in two branches and allowing me to decide which difference I should keep. It was somewhat scary seeing my code break down like this, but once I had figured out how to resolve these conflicts, I was able to complete the merge and my site was running at 100%!
+At first I didn't understand what the \>>> and === lines really meant, but upon looking closer, I realized all it was doing was pushing the differences in code made in two branches and allowing me to decide which difference I should keep. It was somewhat scary seeing my code break down like this, but once I had figured out how to resolve these conflicts, I was able to complete the merge and my site was running at 100%!
 
 Overall, this project did take some time as I had to learn about MVC and how it interacts with the ASP.NET Web Application, but hopefully now that I have a solid understanding of the basics, I will be comfortable enough moving into implementations using a database.
