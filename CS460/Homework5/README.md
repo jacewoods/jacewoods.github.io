@@ -73,6 +73,6 @@ Overall, I am comfortable with how a simple database works, and pretty much alre
 
 Below is a video that sees my code and site in action!
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Ia9-NO1SMSE
 " target="_blank"><img src="http://img.youtube.com/vi/Ia9-NO1SMSE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
