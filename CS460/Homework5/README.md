@@ -26,7 +26,7 @@ With this code. I was now attempting to connect the internal database to the loc
 
 # Connecting the Database to the Site
 
-Using NuGet to install the EntityFramework package, I was able to use the ```c# public class RenterContext : DbContext``` line of code effectively. I also had to alter my ```Web.Config``` file in order to allow everything to see each other. With this complete, I rebuilt my current code solution and then scaffolded a new RentersController that utilized my DAL Context file, as well as my Model. My model has some of the following sample code:
+Using NuGet to install the EntityFramework package, I was able to use the ```public class RenterContext : DbContext``` line of code effectively. I also had to alter my ```Web.Config``` file in order to allow everything to see each other. With this complete, I rebuilt my current code solution and then scaffolded a new RentersController that utilized my DAL Context file, as well as my Model. My model has some of the following sample code:
 ```c#
         [Required (ErrorMessage = "Please input a First Name"), StringLength(20, ErrorMessage = "Input can be no longer than 20 Characters")]
         public string FirstName { get; set; }
@@ -39,7 +39,7 @@ And with this, the scaffolding process automatically built multiple views that s
 # Adjusting the Views to a Cleaner Look
 The Scaffolding did not do justice to the views pages. It also included many views and elements in the controller that I did not need for this specific assignment, such as Delete and Edit. I simply removed these files and reconfigured my controller to match that of the one I had designed previously in my HomeController. It was helpful to take a look at the pre-built Razor HTML and I continued to work with it in order to design the page in a way that I was happy with.
 
-I started with the table view page, which I honestly did not mind the look of at the start. I made some tweaks to it to make it feel more sleek, such as styling within the page: ```html <tr style="border: 3px solid black; background-color: #E2E2E2;">``` and changing the output from the first row to more well formatted text ("First Name", rather than the variable inserted "FirstName"). When I was happy with the way it looked, I moved on to the form page.
+I started with the table view page, which I honestly did not mind the look of at the start. I made some tweaks to it to make it feel more sleek, such as styling within the page: ```<tr style="border: 3px solid black; background-color: #E2E2E2;">``` and changing the output from the first row to more well formatted text ("First Name", rather than the variable inserted "FirstName"). When I was happy with the way it looked, I moved on to the form page.
 
 The Form did not look well designed. There were strangely writted col-md-2's and col-md-10's that spaced the variables and their text boxes in an odd way. I shuffled this around to allow the input text to appear above the input box, as well as designed it with col-md-4 to allow for 3 input boxes in each row. I also made a change to the "Explanation" box to give more room for writing in a description of the issue the renter was having. Below contains some code that shows my Explanation styling sandwiched between some of the more generic styling of the Apartment Name and Unit Number inquiries:
 
@@ -71,8 +71,8 @@ There are a few more differences included in this view page that I made, includi
 # The Final Product
 Overall, I am comfortable with how a simple database works, and pretty much already was going into this assignment. My issues just involved getting it connected successfully, which did take some time, and I am sure that I will run into more issues in the future when we move into more complex database tables that include foreign keys and other elements I'm still not fully comfortable working with at this point.
 
-Below is a video that sees my code and site in action!
+Below is a video that sees my database and site in action!
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Ia9-NO1SMSE
 " target="_blank"><img src="http://img.youtube.com/vi/Ia9-NO1SMSE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="920" height="690" border="10" /></a>
