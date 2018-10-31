@@ -76,3 +76,20 @@ Below is a video that sees my database and site in action!
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Ia9-NO1SMSE
 " target="_blank"><img src="http://img.youtube.com/vi/Ia9-NO1SMSE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="920" height="690" border="10" /></a>
+
+# AMENDMENT
+Due to an unfortunate oversight, I failed to include datetime in my project at the time of initial completion, I have went back and restructured small bits of the code to include datetime functionality, including a table that returns the list in order by datetime. My up.sql has been updated to include datetime inputs and my Renter.cs model now has the following code:
+
+```c#
+        private DateTime Date = DateTime.Now;
+
+        public DateTime CurrentTime
+        {
+            get { return Date; }
+            set { Date = value; }
+        }
+```
+
+In order for my table to return an ordered list based on datetime, I have included ```return View(db.Renters.OrderBy(Renters => Renters.CurrentTime).ToList());``` to my RentersController. Minor changes in the table view were able to include this new information fairly easily. After I included this new code, the database table looks slightly different than from the video above. Take a look!
+
+![image text](/CS460/Homework5/hw5datetimetable.PNG "Screenshot of my db table with datetime included")
