@@ -7,11 +7,11 @@ CS460 is the first segment of a year long set of classes taken by Computer Scien
 
 Homework 1: HTML, CSS, Bootstrap
 * [Blog](https://jacewoods.github.io/CS460/Homework1)
-* [Demo](https://jacewoods.github.io/CS460/Homework1/demo/index.html)
+* [Demo Site](https://jacewoods.github.io/CS460/Homework1/demo/index.html)
 
 Homework 2: Javascript, jQuery
 * [Blog](https://jacewoods.github.io/CS460/Homework2)
-* [Demo](https://jacewoods.github.io/CS460/Homework2/demo/index.html)
+* [Demo Site](https://jacewoods.github.io/CS460/Homework2/demo/index.html)
 
 Homework 3: Visual Studio, C#
 * [Blog](https://jacewoods.github.io/CS460/Homework3)
@@ -19,5 +19,10 @@ Homework 3: Visual Studio, C#
 Homework 4: ASP.NET MVC 5, Razor HTML, GET/POST
 * [Blog](https://jacewoods.github.io/CS460/Homework4)
 
-Homework 5: ASP.NET MVC 5 Cont., Local Database, T-SQL
+Homework 5: Simple Database, T-SQL
 * [Blog](https://jacewoods.github.io/CS460/Homework5)
+* [Demo Video](https://youtu.be/Ia9-NO1SMSE)
+
+Homework 6: Pre-Existing Relational Database
+* [Blog](https://jacewoods.github.io/CS460/Homework6)
+* [Demo Video](https://youtu.be/HO4kw7QeEP8)
