@@ -27,7 +27,7 @@ Homework 6: Pre-Existing Relational Database
 * [Blog](https://jacewoods.github.io/CS460/Homework6)
 * [Demo Video](https://youtu.be/HO4kw7QeEP8)
 
-Homework 7: Pre-Existing Relational Database
+Homework 7: Single-page app using AJAX and an API
 * [Blog](https://jacewoods.github.io/CS460/Homework7)
 * [Demo Video](https://youtu.be/RWiahMu55pQ)
 
