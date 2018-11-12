@@ -34,7 +34,7 @@ $.ajax({
     success: displayData,
     error: errorOnAjax
 });
-
+```
 With the success result pushed into the displayData function, all I had to do to output text onto my view was:
 ```js
 function displayData(info) {
