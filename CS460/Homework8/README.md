@@ -7,6 +7,8 @@ Assignment #8 involved using the skills we've learned over the past few weeks an
 
 # E-R Diagram
 
+![image text](/CS460/Homework8/hw8ER.PNG "Screenshot of my E-R Diagram")
+
 # Video Demo
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YX5wVbYnCjw
