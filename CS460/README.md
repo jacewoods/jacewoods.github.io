@@ -31,3 +31,7 @@ Homework 7: Single-page app using AJAX and an API
 * [Blog](https://jacewoods.github.io/CS460/Homework7)
 * [Demo Video](https://youtu.be/RWiahMu55pQ)
 
+Homework 8: Multi-table, multi-page relational database app
+* [Blog](https://jacewoods.github.io/CS460/Homework8)
+* [Demo Video](https://youtu.be/YX5wVbYnCjw)
+
