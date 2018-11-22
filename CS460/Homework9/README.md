@@ -25,11 +25,11 @@ First off, I needed to create an account on Azure. I did so [here.](https://azur
 1. Input a "Database name", the Pay-As-You-Go Subscription, and the resource group that was previously created in the above step.
 1. "Blank database" for Select source
 1. For Server, Configured required settings
-  1. Input a "Server name"
-  1. Create a Server admin login and password
-  1. Set location to "West US"
-  1. Allow Azure services to access server (make sure this is checked!)
-  1. Select "Select" in the bottom right
+    1. Input a "Server name"
+    1. Create a Server admin login and password
+    1. Set location to "West US"
+    1. Allow Azure services to access server (make sure this is checked!)
+    1. Select "Select" in the bottom right
 1. "Not Now" for SQL elastic pool
 1. Set pricing tier to the $5/month, Basic 2GB Option
 1. Collation can be left alone
