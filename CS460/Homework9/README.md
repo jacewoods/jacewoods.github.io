@@ -10,6 +10,8 @@ First off, I needed to create an account on Azure. I did so [here.](https://azur
 
 # Create a Resource group
 
+![image text](/CS460/Homework9/ResourceGroup.PNG)
+
 1. Select the "Resource groups" option on the left-hand side
 1. Select "Add"
 1. Type in a Resource group name
@@ -17,6 +19,8 @@ First off, I needed to create an account on Azure. I did so [here.](https://azur
 1. Select "Create" at the bottom of the page
 
 # Select SQL databases
+
+![image text](/CS460/Homework9/SetupSQLDBonAzure.PNG)
 
 1. Input a "Database name", the Pay-As-You-Go Subscription, and the resource group that was previously created in the above step.
 1. "Blank database" for Select source
