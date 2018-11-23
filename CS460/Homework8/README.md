@@ -14,3 +14,11 @@ Assignment #8 involved using the skills we've learned over the past few weeks an
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YX5wVbYnCjw
 " target="_blank"><img src="http://img.youtube.com/vi/YX5wVbYnCjw/0.jpg" 
 width="920" height="690" border="10" /></a>
+
+# Video Amendment
+
+Not all of the features were covered in the first video, so I added a second one (that happens to be running on my deployed azure site!) to cover the final features required in the assignment. This is the video below:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=a6JeSCfvAcY
+" target="_blank"><img src="http://img.youtube.com/vi/a6JeSCfvAcY/0.jpg" 
+width="920" height="690" border="10" /></a>
