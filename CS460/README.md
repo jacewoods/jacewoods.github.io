@@ -37,3 +37,4 @@ Homework 8: Multi-table, multi-page relational database app
 
 Homework 9: Deploying HW8 Web App and Database to Azure
 * [Blog](https://jacewoods.github.io/CS460/Homework9)
+* [Deployed Site](http://hw8jaceapp.azurewebsites.net/)
