@@ -120,3 +120,5 @@ Now, if you go to App Services and select your app, you can select the URL that 
 ![image text](/CS460/Homework9/publishapp.PNG)
 
 The website should now be deployed!
+
+Two videos were made for demonstrating how this web app works. [The Second of which](https://youtu.be/a6JeSCfvAcY) is running off of the deployed site! Check it out for proof that the website, at least at one point, worked!
