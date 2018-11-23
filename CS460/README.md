@@ -34,6 +34,7 @@ Homework 7: Single-page app using AJAX and an API
 Homework 8: Multi-table, multi-page relational database app
 * [Blog](https://jacewoods.github.io/CS460/Homework8)
 * [Demo Video](https://youtu.be/YX5wVbYnCjw)
+* [Second Demo Video](https://youtu.be/a6JeSCfvAcY)
 
 Homework 9: Deploying HW8 Web App and Database to Azure
 * [Blog](https://jacewoods.github.io/CS460/Homework9)
