@@ -8,6 +8,7 @@ Hello, my name is Jace Woods! I am recent graduate at Western Oregon University 
 ## Software Engineering Sequence Portfolio
 This contains solo web projects primarily built using ASP.Net, as well as the process taken while learning each individual assignment
 * [CS460 Homework Page](https://jacewoods.github.io/CS460/)
+
 ## Comprehensive Web Application (Final Project)
 This link contains the repository to my Senior Project, spanning over 6 months and built alongside three team members. We used Scrum methodology to build this project, including the utilization of Stand-up meetings, Sprints and Sprint Planning Meetings, and Product Backlogs set up through DevOps.
 * [Powerlevel: A Fitness App; Repository](https://bitbucket.org/Jacewoods/toastercode/src/Development/Powerlevel/Powerlevel/Powerlevel/)
