@@ -14,8 +14,8 @@ This link contains the repository to my Senior Project, spanning over 6 months a
 * [Powerlevel: A Fitness App; Repository](https://bitbucket.org/Jacewoods/toastercode/src/Development/Powerlevel/Powerlevel/Powerlevel/)
 
 ## Other Projects of Mine!
-Here is a growing list of some of my more passionate projects, but not all of them. All of my repositories can be found [here!](https://github.com/jacewoods?tab=repositories)
-* [NP-complete C++ Algorithm for the Subset Sum problem](https://github.com/jacewoods/SubsetSumApprox/blob/master/main.cpp)
+A growing list containing a handful of personal projects I'm proud of! The entirety of my repositories can be found [here!](https://github.com/jacewoods?tab=repositories)
+* [C++ Algorithm for the NP-Complete Subset Sum problem](https://github.com/jacewoods/SubsetSumApprox/blob/master/main.cpp)
 * [Consecutive Picking Game, created using ASP.NET](https://github.com/jacewoods/Consecutive-Picker) -Work in Progress
 
 ## Some of the Tools utilized across my Career
