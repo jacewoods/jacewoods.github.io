@@ -12,6 +12,7 @@ This contains solo web projects primarily built using ASP.Net, as well as the pr
 ## Comprehensive Web Application (Final Project)
 This link contains the repository to my Senior Project, spanning over 6 months and built alongside three team members. We used Scrum methodology to build this project, including the utilization of Stand-up meetings, Sprints and Sprint Planning Meetings, and Product Backlogs set up through DevOps.
 * [Powerlevel: A Fitness App; Repository](https://bitbucket.org/Jacewoods/toastercode/src/Development/Powerlevel/Powerlevel/Powerlevel/)
+* [Powerlevel; Video Demo](https://youtu.be/WkLaEib1ngY)
 
 ## Other Projects of Mine!
 A growing list containing a handful of personal projects I'm proud of! The entirety of my repositories can be found [here!](https://github.com/jacewoods?tab=repositories)
