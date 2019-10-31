@@ -18,8 +18,8 @@ This link contains the repository to my Senior Project, spanning over 6 months a
 A growing list containing a handful of personal projects I'm proud of! The entirety of my repositories can be found [here!](https://github.com/jacewoods?tab=repositories)
 * [C++ Algorithm for the NP-Complete Subset Sum problem](https://github.com/jacewoods/SubsetSumApprox/blob/master/main.cpp)
 * Customer Creator, built with PHP and Laravel
-** [Repository](https://github.com/jacewoods/samplephp)
-** [Video Demo](https://youtu.be/qN7IHUKgymU)
+**[Repository](https://github.com/jacewoods/samplephp)
+**[Video Demo](https://youtu.be/qN7IHUKgymU)
 
 ## Some of the Tools utilized across my Career
 * Assembly
